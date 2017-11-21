@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public abstract class BasePage {
 
-    protected WebDriver driver;
+    private WebDriver driver;
 
     protected String pageTitle;
 
